@@ -1,0 +1,18 @@
+name: darecogpu
+channels:
+  - huggingface
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - pytorch
+  - cudatoolkit=11.6
+  - torchvision
+  - torchaudio
+  - transformers
+  - huggingface_hub
+  - matplotlib
+  - sentencepiece
+  - scikit-learn
